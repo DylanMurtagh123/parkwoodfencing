@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /guides/
+Disallow: /old/
+Disallow: /old2/
+Disallow: /send-enquiry.php
+
+Sitemap: https://parkwoodfencing.co.uk/sitemap.xml

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" sizes="180x180">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#253a26">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Page Not Found | Parkwood Fencing &amp; Decking</title>
+<meta name="description" content="The page you were looking for could not be found. Return to Parkwood Fencing & Decking or browse our services.">
+<meta name="robots" content="noindex, follow">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,900&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20260916-2">
+
+<style>
+.not-found {
+  min-height: 78vh;
+  display: grid;
+  place-items: center;
+  padding: 160px 0 100px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 78% 30%, rgba(181, 138, 61, 0.14), transparent 32%),
+    linear-gradient(145deg, var(--garden-deep), var(--garden));
+  color: var(--parchment);
+}
+.not-found-inner { position: relative; max-width: 760px; text-align: center; }
+.not-found-code {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  color: rgba(246, 243, 236, 0.045);
+  font-family: var(--font-display);
+  font-size: clamp(210px, 38vw, 440px);
+  font-weight: 900;
+  line-height: 0.75;
+  pointer-events: none;
+  user-select: none;
+}
+.not-found-content { position: relative; z-index: 1; }
+.not-found h1 {
+  max-width: 680px;
+  margin: 18px auto 22px;
+  font-family: var(--font-display);
+  font-size: clamp(48px, 7vw, 82px);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+}
+.not-found h1 em { color: var(--gold-light); font-weight: 500; }
+.not-found-copy {
+  max-width: 580px;
+  margin: 0 auto 34px;
+  color: rgba(246, 243, 236, 0.76);
+  font-size: 18px;
+}
+.not-found-actions { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+.not-found-help { margin-top: 34px; color: rgba(246, 243, 236, 0.65); font-size: 14px; }
+.not-found-help a { color: var(--gold-light); font-weight: 700; }
+@media (max-width: 600px) {
+  .not-found { min-height: 72vh; padding: 130px 0 72px; }
+  .not-found-copy { font-size: 16px; }
+  .not-found-actions { flex-direction: column; align-items: stretch; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="assets/logo-transparent.png" alt="Parkwood Fencing & Decking logo">
+    </a>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html#faqs">FAQs</a></li>
+        <li><a href="index.html#area">Areas Covered</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="tel:+447563015571" class="header-phone">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>07563 015571</span>
+      </a>
+      <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="nav-scrim" id="navScrim"></div>
+<div class="mobile-nav" id="mobileNav">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="index.html#faqs">FAQs</a></li>
+    <li><a href="index.html#area">Areas Covered</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="tel:+447563015571">07563 015571</a></li>
+  </ul>
+</div>
+
+<main>
+  <section class="not-found" id="top">
+    <div class="container not-found-inner">
+      <span class="not-found-code" aria-hidden="true">404</span>
+      <div class="not-found-content">
+        <span class="eyebrow">Page Not Found</span>
+        <h1>Looks like this path has reached a <em>dead end.</em></h1>
+        <p class="not-found-copy">The page may have moved, or the address might not be quite right. You can head back home or explore our fencing and decking services.</p>
+        <div class="not-found-actions">
+          <a href="index.html" class="btn btn-primary">Return Home</a>
+          <a href="services.html" class="btn btn-ghost">Explore Our Services</a>
+        </div>
+        <p class="not-found-help">Still need a hand? <a href="contact.html">Contact us</a> or call <a href="tel:+447563015571">07563 015571</a>.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img src="assets/logo-transparent.png" alt="Parkwood Fencing & Decking logo">
+        </a>
+        <p>Domestic fencing and decking specialists serving Medway, Maidstone, Sittingbourne, Gravesend and the surrounding Kent area. Quality workmanship at competitive prices.</p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services/fencing.html">Fencing</a></li>
+          <li><a href="services/composite-decking.html">Composite Decking</a></li>
+          <li><a href="services/timber-decking.html">Timber Decking</a></li>
+          <li><a href="services/pergolas.html">Pergolas</a></li>
+          <li><a href="services.html">All Services</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html#transform">Our Work</a></li>
+          <li><a href="index.html#why">Why Choose Us</a></li>
+          <li><a href="index.html#faqs">FAQs</a></li>
+          <li><a href="index.html#area">Areas Covered</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:+447563015571">07563 015571</a></li>
+          <li>Medway &amp; Kent</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Parkwood Fencing &amp; Decking. All rights reserved.</span>
+      <span><a href="privacy.html" style="color:inherit;">Privacy Policy</a> &middot; <a href="terms.html" style="color:inherit;">Terms &amp; Conditions</a></span>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:+447563015571" class="call-fab" aria-label="Call Parkwood Fencing & Decking on 07563 015571">
+  <span class="call-glow"></span>
+  <span class="call-glow call-glow-delay"></span>
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
